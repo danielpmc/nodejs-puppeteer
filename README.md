@@ -1,2 +1,2 @@
-# Nodejs 
-Node.js v14 Docker image
+# nodejs-puppeteer
+Node.js v14 with puppeteer support Docker image
