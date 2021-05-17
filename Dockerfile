@@ -6,7 +6,8 @@ RUN apt update \
     && apt upgrade -y \
     && apt -y install curl software-properties-common locales git \
     && useradd -d /home/container -m container \
-    && apt-get update
+    && apt-get update \
+    && apt-get install lxde
 
     # Grant sudo permissions to container user for commands
 RUN apt-get update && \
